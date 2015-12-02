@@ -378,7 +378,7 @@ libraries[JAIL][type] = "library"
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
 libraries[openseadragon][download][type] = "git"
-libraries[openseadragon][download][url] = git://github.com/openseadragon/openseadragon.git""
+libraries[openseadragon][download][url] = "git://github.com/openseadragon/openseadragon.git"
 libraries[openseadragon][download][tag] = "v0.9.129"
 libraries[openseadragon][directory_name] = "openseadragon"
 libraries[openseadragon][type] = "library"
