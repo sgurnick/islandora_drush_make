@@ -305,117 +305,89 @@ projects[php_lib][type] = "module"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-projects[builder][download][type] = ""
-projects[builder][download][url] = ""
-projects[builder][download][tag] = ""
-projects[builder][type] = "module"
-
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-projects[elements][download][type] = ""
-projects[elements][download][url] = ""
-projects[elements][download][tag] = ""
-projects[elements][type] = "module"
-
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-projects[xml_forms][download][type] = ""
-projects[xml_forms][download][url] = ""
-projects[xml_forms][download][tag] = ""
+projects[xml_forms][download][type] = "git"
+projects[xml_forms][download][url] = "git://github.com/Islandora/islandora_xml_forms.git"
+projects[xml_forms][download][tag] = "7.x-1.6"
 projects[xml_forms][type] = "module"
-
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-projects[schema][download][type] = ""
-projects[schema][download][url] = ""
-projects[schema][download][tag] = ""
-projects[schema][type] = "module"
-
-; Please fill the following out. Type may be one of get, git, bzr or svn,
-; and url is the url of the download.
-projects[zip_importer][download][type] = ""
-projects[zip_importer][download][url] = ""
-projects[zip_importer][download][tag] = ""
-projects[zip_importer][type] = "module"
 
 ; Libraries
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[pdfjs][download][type] = ""
-libraries[pdfjs][download][url] = ""
-libraries[pdfjs][download][tag] = ""
+libraries[pdfjs][download][type] = "git"
+libraries[pdfjs][download][url] = "git://github.com/mozilla/pdf.js.git"
+libraries[pdfjs][download][tag] = "v1.1.469"
 libraries[pdfjs][directory_name] = "pdfjs"
 libraries[pdfjs][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[jstree][download][type] = ""
-libraries[jstree][download][url] = ""
-libraries[jstree][download][tag] = ""
+libraries[jstree][download][type] = "git"
+libraries[jstree][download][url] = "git://github.com/vakata/jstree.git"
+libraries[jstree][download][tag] = "3.2.1"
 libraries[jstree][directory_name] = "jstree"
 libraries[jstree][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[bookreader][download][type] = ""
-libraries[bookreader][download][url] = ""
-libraries[bookreader][download][tag] = ""
+libraries[bookreader][download][type] = "git"
+libraries[bookreader][download][url] = "git://github.com/Islandora/internet_archive_bookreader.git"
+libraries[bookreader][download][tag] = "Release29"
 libraries[bookreader][directory_name] = "bookreader"
 libraries[bookreader][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[jwplayer][download][type] = ""
-libraries[jwplayer][download][url] = ""
-libraries[jwplayer][download][tag] = ""
+libraries[jwplayer][download][type] = "file"
+libraries[jwplayer][download][url] = "https://account.jwplayer.com/static/download/jwplayer-6.12.zip"
+libraries[jwplayer][download][md5] = "fc733ca3f88a15c59c340a769da496ab"
 libraries[jwplayer][directory_name] = "jwplayer"
 libraries[jwplayer][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[colorbox][download][type] = ""
-libraries[colorbox][download][url] = ""
-libraries[colorbox][download][tag] = ""
+libraries[colorbox][download][type] = "git"
+libraries[colorbox][download][url] = "git://github.com/jackmoore/colorbox.git"
+libraries[colorbox][download][tag] = "1.6.3"
 libraries[colorbox][directory_name] = "colorbox"
 libraries[colorbox][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[BagItPHP][download][type] = ""
-libraries[BagItPHP][download][url] = ""
-libraries[BagItPHP][download][tag] = ""
+libraries[BagItPHP][download][type] = "git"
+libraries[BagItPHP][download][url] = "git://github.com/scholarslab/BagItPHP.git"
+libraries[BagItPHP][download][tag] = "0.3.0"
 libraries[BagItPHP][directory_name] = "BagItPHP"
 libraries[BagItPHP][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[tuque][download][type] = ""
-libraries[tuque][download][url] = ""
-libraries[tuque][download][tag] = ""
+libraries[tuque][download][type] = "git"
+libraries[tuque][download][url] = "git://github.com/Islandora/tuque.git"
+libraries[tuque][download][tag] = "1.6"
 libraries[tuque][directory_name] = "tuque"
 libraries[tuque][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[JAIL][download][type] = ""
-libraries[JAIL][download][url] = ""
-libraries[JAIL][download][tag] = ""
+libraries[JAIL][download][type] = "git"
+libraries[JAIL][download][url] = "git://github.com/sebarmeli/JAIL.git"
+libraries[JAIL][download][branch] = "master"
 libraries[JAIL][directory_name] = "JAIL"
 libraries[JAIL][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[openseadragon][download][type] = ""
-libraries[openseadragon][download][url] = ""
-libraries[openseadragon][download][tag] = ""
+libraries[openseadragon][download][type] = "git"
+libraries[openseadragon][download][url] = git://github.com/openseadragon/openseadragon.git""
+libraries[openseadragon][download][tag] = "v0.9.129"
 libraries[openseadragon][directory_name] = "openseadragon"
 libraries[openseadragon][type] = "library"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
-libraries[video-js][download][type] = ""
-libraries[video-js][download][url] = ""
-libraries[video-js][download][tag] = ""
+libraries[video-js][download][type] = "git"
+libraries[video-js][download][url] = "git://github.com/videojs/video.js.git"
+libraries[video-js][download][tag] = "v5.2.4"
 libraries[video-js][directory_name] = "video-js"
 libraries[video-js][type] = "library"
 
