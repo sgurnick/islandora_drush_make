@@ -123,10 +123,10 @@ projects[islandora_fits][type] = "module"
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
 ; Ask Kristian about this module - no 7.x-1.6 version available
-;projects[islandora_image_annotation][download][type] = "git"
-;projects[islandora_image_annotation][download][url] = "git://github.com/Islandora-Labs/islandora_image_annotation.git"
-;projects[islandora_image_annotation][download][tag] = "7.x-1.5"
-;projects[islandora_image_annotation][type] = "module"
+projects[islandora_image_annotation][download][type] = "git"
+projects[islandora_image_annotation][download][url] = "git://github.com/Islandora-Labs/islandora_image_annotation.git"
+projects[islandora_image_annotation][download][tag] = "7.x-1.5"
+projects[islandora_image_annotation][type] = "module"
 
 ; Please fill the following out. Type may be one of get, git, bzr or svn,
 ; and url is the url of the download.
