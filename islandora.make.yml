@@ -1,0 +1,338 @@
+core: 7.x
+api: '2'
+projects:
+  drupal:
+    version: '7.41'
+  ctools:
+    version: '1.9'
+  colorbox:
+    version: '2.9'
+  imagemagick:
+    version: '1.0'
+  libraries:
+    version: '2.2'
+  pathauto:
+    version: '1.2'
+  token:
+    version: '1.6'
+  views:
+    version: '3.11'
+  xmlsitemap:
+    version: '2.2'
+  islandora:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_audio:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solution_pack_audio.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_bagit:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_bagit.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_solution_pack_collection:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solution_pack_collection.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_basic_image:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solution_pack_image.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_batch:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_batch.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_book:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solution_pack_book.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_bookmark:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_bookmark.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_checksum:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_checksum.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_checksum_checker:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_checksum_checker.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_compound_object:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solution_pack_compound.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_disk_image:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solution_pack_disk_image.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_entities:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solution_pack_entities.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_fits:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_fits.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_image_annotation:
+    download:
+      type: git
+      url: 'git://github.com/Islandora-Labs/islandora_image_annotation.git'
+      tag: 7.x-1.5
+    type: module
+  islandora_importer:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_importer.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_internet_archive_bookreader:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_internet_archive_bookreader.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_jwplayer:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_jwplayer.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_large_image:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solution_pack_large_image.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_manuscript:
+    download:
+      type: git
+      url: 'git://github.com/UCLALibrary/islandora_solution_pack_manuscript.git'
+      branch: 7.x
+    type: module
+  islandora_newspaper:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solution_pack_newspaper.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_oai:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_oai.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_ocr:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_ocr.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_openseadragon:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_openseadragon.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_paged_content:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_paged_content.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_pathauto:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_pathauto.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_pdf:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solution_pack_pdf.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_pdfjs:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_pdfjs.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_simple_workflow:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_simple_workflow.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_solr:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solr_search.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_solr_facet_pages:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solr_facet_pages.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_solr_metadata:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solr_metadata.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_solr_views:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solr_views.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_video:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solution_pack_video.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_videojs:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_videojs.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_web_archive:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_solution_pack_web_archive.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_xacml_editor:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_xacml_editor.git'
+      tag: 7.x-1.6
+    type: module
+  islandora_xmlsitemap:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_xmlsitemap.git'
+      tag: 7.x-1.6
+    type: module
+  objective_forms:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/objective_forms.git'
+      tag: 7.x-1.6
+    type: module
+  php_lib:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/php_lib.git'
+      tag: 7.x-1.6
+    type: module
+  xml_forms:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/islandora_xml_forms.git'
+      tag: 7.x-1.6
+    type: module
+libraries:
+  pdfjs:
+    download:
+      type: git
+      url: 'git://github.com/mozilla/pdf.js.git'
+      tag: v1.1.469
+    directory_name: pdfjs
+    type: library
+  jstree:
+    download:
+      type: git
+      url: 'git://github.com/vakata/jstree.git'
+      tag: 3.2.1
+    directory_name: jstree
+    type: library
+  bookreader:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/internet_archive_bookreader.git'
+      tag: Release29
+    directory_name: bookreader
+    type: library
+  jwplayer:
+    download:
+      type: file
+      url: 'https://account.jwplayer.com/static/download/jwplayer-6.12.zip'
+      md5: fc733ca3f88a15c59c340a769da496ab
+    directory_name: jwplayer
+    type: library
+  colorbox:
+    download:
+      type: git
+      url: 'git://github.com/jackmoore/colorbox.git'
+      tag: 1.6.3
+    directory_name: colorbox
+    type: library
+  BagItPHP:
+    download:
+      type: git
+      url: 'git://github.com/scholarslab/BagItPHP.git'
+      tag: 0.3.0
+    directory_name: BagItPHP
+    type: library
+  tuque:
+    download:
+      type: git
+      url: 'git://github.com/Islandora/tuque.git'
+      tag: '1.6'
+    directory_name: tuque
+    type: library
+  JAIL:
+    download:
+      type: git
+      url: 'git://github.com/sebarmeli/JAIL.git'
+      branch: master
+    directory_name: JAIL
+    type: library
+  openseadragon:
+    download:
+      type: git
+      url: 'git://github.com/openseadragon/openseadragon.git'
+      tag: v0.9.129
+    directory_name: openseadragon
+    type: library
+  video-js:
+    download:
+      type: git
+      url: 'git://github.com/videojs/video.js.git'
+      tag: v5.2.4
+    directory_name: video-js
+    type: library
